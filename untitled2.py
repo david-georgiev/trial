@@ -20,6 +20,7 @@ class Warehouse():
     remaining_capacity = 2000000000
 
     def add_item(self, item):
+        
         self.inventory.append(item)
         self.remaining_capacity -= item.value
 
